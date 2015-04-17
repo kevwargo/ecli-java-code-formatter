@@ -49,7 +49,7 @@ public class ECLIJavaCodeFormatter
         }
         String source = "";
         for (int i = 0; i < lines.size(); i++)
-            source += lines.get(i);
+            source += lines.get(i) + "\n";
         IDocument doc = new Document();
         doc.set(source);
         TextEdit edit = formatter.format(CodeFormatter.K_COMPILATION_UNIT |
@@ -70,5 +70,6 @@ public class ECLIJavaCodeFormatter
         catch (BadLocationException e) {
             System.err.println("BadLocation");
         }
+        
     }
 }

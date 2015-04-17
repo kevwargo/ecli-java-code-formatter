@@ -1,2 +1,2 @@
 # ecli-java-code-formatter
-Command line util that uses eclipse jars to format java code like eclipse Ctrl+Shift+F
+Command line tool that uses Eclipse jars to format java code like Eclipse's Ctrl+Shift+F
